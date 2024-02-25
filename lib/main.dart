@@ -1,8 +1,9 @@
-import 'package:flutter/material.dart';
+ import 'package:flutter/material.dart';
 void main(){
   runApp(MaterialApp(
     title: "learning App",
     home:HomePage(),
+
   ) );
 }
 
@@ -14,8 +15,15 @@ class HomePage   extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("learning App"),
+        backgroundColor: Color(0xffF3B63A),
       ),
-   
+    body: Container(
+      child: Center(child: Text("hel lo ")),
+    ),
     );
+ return MaterialApp(
+   home: HomePage(),
+   debugShowCheckedModeBanner: false,
+ );
   }
 }
