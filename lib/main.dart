@@ -18,12 +18,9 @@ class HomePage   extends StatelessWidget {
         backgroundColor: Color(0xffF3B63A),
       ),
     body: Container(
-      child: Center(child: Text("hel lo ")),
+      child: Center(child: Text("hello ")),
     ),
     );
- return MaterialApp(
-   home: HomePage(),
-   debugShowCheckedModeBanner: false,
- );
+     
   }
 }
