@@ -15,10 +15,11 @@ class HomePage   extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("learning App"),
-        backgroundColor: Color(0xffF3B63A),
+        backgroundColor: Color.fromARGB(255, 241, 186, 76),
       ),
     body: Container(
       child: Center(child: Text("hello ")),
+      color: Colors.lime
     ),
     );
      
